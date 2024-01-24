@@ -1,6 +1,8 @@
 .InputsList {
   height: 100svh;
-  width: 500px;
+  min-width: 500px;
+  position: sticky;
+  top: 0;
   background-color: lightblue;
 
   &__title {
