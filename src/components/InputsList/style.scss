@@ -1,0 +1,13 @@
+.InputsList {
+  height: 100svh;
+  width: 500px;
+  background-color: lightblue;
+
+  &__title {
+    display: block;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+  }
+}

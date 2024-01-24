@@ -1,0 +1,19 @@
+.InputsItem {
+  height: 90svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__button {
+    height: 80px;
+    font-size: larger;
+    border-radius: 8px;
+  }
+}
